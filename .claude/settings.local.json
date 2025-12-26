@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:chatgpt.com)",
+      "Bash(dir:*)",
+      "WebFetch(domain:download.libsodium.org)",
+      "Bash(curl:*)",
+      "Bash(powershell:*)",
+      "Bash(where:*)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe\" e2e.vcxproj /p:Configuration=Release /p:Platform=Win32 /v:minimal)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe\" e2e.vcxproj \"/p:Configuration=Release\" \"/p:Platform=Win32\" \"/v:minimal\")",
+      "Bash(cmd.exe:*)",
+      "Bash(copy_to_mirc.bat)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/dumpbin.exe\" //exports e2e.dll)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/dumpbin.exe\" //headers e2e.dll)",
+      "Bash(\"C:\\\\Program Files\\\\Microsoft Visual Studio\\\\18\\\\Community\\\\MSBuild\\\\Current\\\\Bin\\\\amd64\\\\MSBuild.exe\" e2e.vcxproj /p:Configuration=Release /p:Platform=Win32 /v:minimal)",
+      "Bash(\"C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe\" e2e.vcxproj \"/p:Configuration=Release\" \"/p:Platform=Win32\" \"/v:minimal\")",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe\" e2e.vcxproj //p:Configuration=Release //p:Platform=Win32 //v:minimal)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x86/dumpbin.exe\" //exports Release/e2e.dll)"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+LIBRARY e2e
+EXPORTS
+    GenKeys
+    CreateOffer
+    DeriveSecret
+    EncryptDM
+    DecryptDM
+    GenChanKey
+    EncryptChan
+    DecryptChan
+    StoreEncrypt
+    StoreDecrypt
+    E2EEncrypt
+    E2EDecrypt
+    Version
+    SelfTest
+    Test
+    Debug
+    Enc
